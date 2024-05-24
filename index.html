@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Freeman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.2/css/boxicons.min.css" />
+
+    
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <nav>
+            <div class="left">Yashi Gupta</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" onclick="scrollToSection('home')">Home</a></li>
+                    <li><a href="#" onclick="scrollToSection('about')">About Me</a></li>
+                    <li><a href="#" onclick="scrollToSection('skills')">Skills</a></li>
+                    
+                    <li><a href="#" onclick="scrollToSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="scrollToSection('certificates')">Certifications</a></li>
+                    <li><a href="#" onclick="scrollToSection('contact')">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <!--First Section-->
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hey! My name is <span class="purple">Yashi Gupta</span>
+
+                <div>And I am </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="web.jpg" alt="image" width="80%">
+            </div>
+        </section>
+        <!--Second Section-->
+        <hr>
+        <section class="secondSection" id="about">
+            <h1>About myself</h1>
+            <hr>
+            <div class="about-content">
+                <div class="image-section">
+                    <img src="cropped_image.jpg" alt="my-image" height="250px" width="250px">
+                </div>
+                <div class="about-myself"><br>
+                    <div class="social-links">
+                        <a href="https://github.com/Yashi008" class="github" target="_main"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/yashi_g07/" class="instagram" target="_main"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yashi-gupta-3994b425b/" class="linkedin" target="_main"><i class="bx bxl-linkedin"></i></a>
+
+                      </div><br>
+                    <span id="element2">Welcome to my portfolio!</span> <br><br>
+                    I am Yashi. Here, you'll find a curated showcase of my projects, my skills and certifications. I am
+                    an enthusiastic final year student pursuing B.tech in Computer Science at
+                    Kalinga Institute of Industrial Technology with a CGPA of 8.00 and a passion for software
+                    development. Proficient in C/C++ and Python, with a strong foundation
+                    in algorithm design. Dive in to explore my journey. Thank you for visiting!
+                </div>
+                <br><br><br>
+                <section class="education">
+                    <span id="element3"> My Educational Qualifications</span>
+
+                    <div class="education-content">
+                        <div class="left-ed">
+                            <h3>Higher Secondary Education</h3>
+                            <h4>Chinmaya Vidyalaya</h4>
+                            <h5>2019-2021</h5>
+                            <h6>85.2%</h6>
+                        </div>
+
+                        <div class="right-ed">
+                            <h3>Bachelor of Technology(B.tech)</h3>
+                            <h4>Kalinga Institute of Indutrial Technology</h4>
+                            <h5>2021- 2025</h5>
+                            <h6>CGPA: 8.00</h6>
+                        </div>
+
+
+                    </div>
+
+                </section>
+        </section>
+
+
+        <hr>
+
+        <section class="thirdSection" id="skills">
+            <span id="element3">Technical Skills and Interests</span>
+            <div class="my-skills">
+<br>
+                <div class="helloSkill">
+                    <ul>
+                        <li><b>Languages:</b> C/C++, Java, Python, Javascript, HTML+CSS, Shell Script</li><br>
+                        <li><b>Libraries :</b> C++ STL, Python Libraries</li><br>
+                        <li><b>Frameworks:</b> Flask</li><br>
+                        <li><b>Databases:</b> Relational Database(mySql)</li><br>
+                        <li><b>Areas of Interest:</b> Web Design and Development, Machine Learning.</li><br>
+                        <li><b>Areas of Interest:</b>Problem Solving, Self-learning, Presentation, Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+<hr>
+            <!-- <section class="fourthSection">
+                <span id="element3">My Projects</span>
+
+                <div class="my-projects">
+
+                    <div class="project1"><br>
+                        <h2>Chatbot in Python</h2>
+                    </div>
+
+                    <div class="project2">
+                        <h2>SynthAIsum</h2>
+                    </div>
+        
+                </div>
+               
+
+                
+
+            </section> -->
+            <section class="fourthSection" id="projects">
+                <div class="container1">
+                    <span id="element3">My Projects</span>
+                    <div class="projects-list">
+                        <div>
+                            <i class='bx bx-code'></i>
+                            <h2>Chatbot in Python</h2>
+                            <p>This is a chatbot application built using the Tkinter library in Python. It uses a pre-trained machine learning model to predict the user's intent based on their input and generates a response accordingly. The chatbot can also perform sentiment analysis on the user's input and provide dynamic responses using template strings. The application has a simple user interface with a text input box and a text output box to display the conversation.</p><br>
+                            <a href="https://github.com/Yashi008/Python-Chatbot" class="read">Learn More</a> <br>
+                            <h4>Status: Complete</h4>
+                        </div>
+
+                        <div>
+                            <i class="bx bx-code"></i>
+                            <h2>SynthAIsum</h2>
+                            <p>A Flask web application that performs text summarization and evaluation on user-provided text or uploaded documents. The application uses various natural language processing libraries such as NLTK, Rouge, and SacreBleu to extract sentences, calculate scores, and generate summaries. The user can input text or upload a document, choose the number of sentences for the summary, and view the summary along with the evaluation scores. The application also generates a graph to visualize the Rouge scores for different score types.</p><br>
+                            <a href="https://github.com/Yashi008/Text-Summariization" class="read">Learn More</a>
+                            <br>
+                            <h4>Status: Complete</h4>
+                        </div>
+
+                        <div>
+                            <i class="bx bx-code"></i>
+                            <h2>AyurPharmaGuide</h2>
+                            <p> This is a Flask web application that uses machine learning to predict diseases based on user-inputted symptoms. The application uses KNeighborsClassifier for classification. It also provides a classification report and suggests medicines based on the predicted disease. The application also includes a preprocessing function to clean the input data and a function to retrieve symptom descriptions from a dataframe. Additionally, the application uses a Naive Bayes classifier to suggest medicines based on the user's input symptoms.</p><br>
+                            <a href="https://github.com/Yashi008/AyurPharmaGuide" class="read">Learn More</a>
+                            <h4>Status: Complete</h4>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="fifthSection" id="certificates">
+                <div class="container2">
+                    <span id="element3">Certifications</span>
+                    <div class="certificate-list">
+                        <div>
+                            <i class="bx bx-crop"></i>
+                            <h2>Hackerrank Problem Solving- Basic</h2>
+                            <a href="https://www.hackerrank.com/certificates/1128bf102e43" class="read" target="_main">View</a>
+                        </div>
+
+                        <div>
+                            <i class="bx bx-crop"></i>
+                            <h2>Hackerrank Problem solving- Inntermediate</h2>
+                            <a href="https://www.hackerrank.com/certificates/3d0436b60067" class="read" target="_main">View</a>
+                        </div>
+
+                        <div>
+                            <i class="bx bx-crop"></i>
+                            <h2>Software Engineer Intern</h2>
+                            <a href="https://www.hackerrank.com/certificates/3780351f199e" class="read" target="_main" style="margin-top: 35px;">View</a>
+                        </div>
+
+                        <div>
+                            <i class="bx bx-crop">
+                                <h2 style="margin-top: 10px;">IBM certified: Data Science</h2>
+                                <a href="https://coursera.org/share/14ab79caa2259ff78a3b58a0b4e3e1db" class="read" target="_main" style="margin-top: 100px;">View</a>
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+<hr>
+            <section class="sixthSection" id="contact">
+                <div class="container3">
+                    <form action="https://api.web3forms.com/submit" method="post" class="contact-left">
+                        <span id="element3">Get In Touch</span>
+                        <input type="hidden" name="access_key" value="aca904ac-b437-4a01-9e2a-fb3429d19e73">
+
+
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+                    <div class="contact-right">
+                        <img src="Screenshot_2024-05-24_190329-removebg-preview.png" alt="contactImg">
+                    </div>
+                   
+                </div>
+            
+            </section>
+
+            
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer">
+           
+            <span>
+                Created By
+                <span id="element4">Yashi Gupta</span>
+               
+            </span>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script src="script.js"></script>
+</body>
+
+</html>

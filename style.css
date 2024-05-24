@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 2rem;
+
+}
+
+.firstSection {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+
+}
+
+.firstSection>div {
+
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection  {
+    width: 100%;
+
+    margin: 50px 0;
+    @media (max-width : 800px) {
+        .contact-right{
+        display: none;
+        }
+        }
+    
+}
+
+.purple {
+    color: rgb(123, 37, 202);
+}
+
+#element {
+    color: rgb(123, 37, 202);
+}
+
+#element2 {
+    color: rgb(123, 37, 202);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#element3 {
+    color: rgb(123, 37, 202);
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-section img {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.education{
+    background-color: rgb(11, 11, 37);
+    box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+
+    
+}
+
+.education-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.left-ed {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(11, 11, 37);
+    margin: 80px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+}
+
+.right-ed {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(11, 11, 37);
+    margin: 80px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+}
+
+.helloSkill{
+    background-color: rgb(11, 11, 37);
+    margin-top: 10px;
+    box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+}
+.helloSkill li{
+    margin-top: 5px;
+}
+/* .my-projects{
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .project1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(18, 18, 62);
+    
+}
+.project2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(18, 18, 62);
+    justify-content: space-between;
+    
+} */
+
+
+
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 12px;
+    color: black;
+}
+
+.social-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social-links a {
+margin: 0 10px;
+font-size: 24px;
+color: lavender;
+transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+color: #666;
+}
+
+.github {
+color: #333;
+}
+
+.instagram {
+color: #e1306c;
+}
+
+.linkedin {
+color: #0072b1;
+}
+.container1{
+padding: 60px;
+}
+.container2{
+padding: 60px;
+}
+.projects-list{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+}
+.projects-list div{
+background-color: transparent;
+padding: 40px;
+font-size: 13px;
+font-weight: 13px;
+border-right: 10px;
+border-radius: 20px;
+transition: background 0.5s, transform 0.5s;
+box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+}
+.projects-list div h2{
+font-size: 25px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.projects-list div a{
+text-decoration: none;
+color: white;
+display: inline-block;
+}
+
+.read{
+display: inline-block;
+padding: 12px 20px;
+background:rgb(62, 62, 192);
+border-radius: 40px;
+font-size: 10px;
+}
+.read:hover {
+background: rgba(0, 0, 255, 0.63);
+box-shadow: 0 0 20px rgba(0, 0, 255, 0.63);
+}
+.projects-list div:hover{
+transform: translateY(-10px);
+}
+
+.certificate-list{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+}
+.certificate-list div{
+background-color: transparent;
+padding: 40px;
+font-size: 13px;
+font-weight: 13px;
+border-right: 10px;
+border-radius: 20px;
+transition: background 0.5s, transform 0.5s;
+box-shadow: 1px 1px 20px #022188e5,
+         1px 1px 40px #013a809a;
+}
+.certificate-list div h2{
+font-size: 25px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.certificate-list div a{
+text-decoration: none;
+color: white;
+display: inline-block;
+}
+.certificate-list div:hover{
+transform: translateX(-5px);
+}
+
+.footer{
+background-color: #00042b;
+display: flex;
+height: 30px;
+align-items: center;
+padding: 20px 23px
+
+}
+.footer span{
+color: rgb(90, 14, 161);
+}
+.container3{
+display: flex;
+align-items:center ;
+justify-content: space-evenly;
+}
+.contact-right{
+display: flex;
+}
+.contact-right img{
+width: 450px;
+height: 350px;
+border-radius: 30px;
+}
+.contact-left{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+}
+
+.contact-inputs{
+width: 400px;
+height: 50px;
+border: none;
+outline: none;
+padding:  0 10px;
+font-weight: 500;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #666;
+border-radius: 50px;
+}
+.contact-left textarea{
+height: 140px;
+padding-top: 15px;
+border-radius: 20px;
+}
+.contact-left button{
+display: flex;
+align-items: center;
+padding: 10px 20px;
+border-radius: 30px;
+font-size: 16px;
+color: #01293f;
+
+}
+.contact-left button:hover{
+color: blue;
+
+}
+@media (max-width : 800px) {
+.contact-inputs{
+width: 80vw;
+}
+.contact-right{
+display: none;
+}
+}
